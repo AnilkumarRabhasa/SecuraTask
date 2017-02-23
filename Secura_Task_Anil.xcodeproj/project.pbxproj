@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043860B31E5EB1BC0046E19F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043860B21E5EB1BC0046E19F /* AppDelegate.swift */; };
+		043860B51E5EB1BC0046E19F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043860B41E5EB1BC0046E19F /* ViewController.swift */; };
+		043860B81E5EB1BC0046E19F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043860B61E5EB1BC0046E19F /* Main.storyboard */; };
+		043860BB1E5EB1BC0046E19F /* Secura_Task_Anil.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 043860B91E5EB1BC0046E19F /* Secura_Task_Anil.xcdatamodeld */; };
+		043860BD1E5EB1BC0046E19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043860BC1E5EB1BC0046E19F /* Assets.xcassets */; };
+		043860C01E5EB1BC0046E19F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043860BE1E5EB1BC0046E19F /* LaunchScreen.storyboard */; };
+		043860CB1E5EB1BC0046E19F /* Secura_Task_AnilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043860CA1E5EB1BC0046E19F /* Secura_Task_AnilTests.swift */; };
+		043860D61E5EB1BC0046E19F /* Secura_Task_AnilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043860D51E5EB1BC0046E19F /* Secura_Task_AnilUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043860C71E5EB1BC0046E19F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043860A71E5EB1BC0046E19F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043860AE1E5EB1BC0046E19F;
+			remoteInfo = Secura_Task_Anil;
+		};
+		043860D21E5EB1BC0046E19F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043860A71E5EB1BC0046E19F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043860AE1E5EB1BC0046E19F;
+			remoteInfo = Secura_Task_Anil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043860AF1E5EB1BC0046E19F /* Secura_Task_Anil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Secura_Task_Anil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043860B21E5EB1BC0046E19F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		043860B41E5EB1BC0046E19F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		043860B71E5EB1BC0046E19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043860BA1E5EB1BC0046E19F /* Secura_Task_Anil.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Secura_Task_Anil.xcdatamodel; sourceTree = "<group>"; };
+		043860BC1E5EB1BC0046E19F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043860BF1E5EB1BC0046E19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043860C11E5EB1BC0046E19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043860C61E5EB1BC0046E19F /* Secura_Task_AnilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Secura_Task_AnilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043860CA1E5EB1BC0046E19F /* Secura_Task_AnilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secura_Task_AnilTests.swift; sourceTree = "<group>"; };
+		043860CC1E5EB1BC0046E19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043860D11E5EB1BC0046E19F /* Secura_Task_AnilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Secura_Task_AnilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043860D51E5EB1BC0046E19F /* Secura_Task_AnilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secura_Task_AnilUITests.swift; sourceTree = "<group>"; };
+		043860D71E5EB1BC0046E19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043860AC1E5EB1BC0046E19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043860C31E5EB1BC0046E19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043860CE1E5EB1BC0046E19F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043860A61E5EB1BC0046E19F = {
+			isa = PBXGroup;
+			children = (
+				043860B11E5EB1BC0046E19F /* Secura_Task_Anil */,
+				043860C91E5EB1BC0046E19F /* Secura_Task_AnilTests */,
+				043860D41E5EB1BC0046E19F /* Secura_Task_AnilUITests */,
+				043860B01E5EB1BC0046E19F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043860B01E5EB1BC0046E19F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043860AF1E5EB1BC0046E19F /* Secura_Task_Anil.app */,
+				043860C61E5EB1BC0046E19F /* Secura_Task_AnilTests.xctest */,
+				043860D11E5EB1BC0046E19F /* Secura_Task_AnilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043860B11E5EB1BC0046E19F /* Secura_Task_Anil */ = {
+			isa = PBXGroup;
+			children = (
+				043860B21E5EB1BC0046E19F /* AppDelegate.swift */,
+				043860B41E5EB1BC0046E19F /* ViewController.swift */,
+				043860B61E5EB1BC0046E19F /* Main.storyboard */,
+				043860BC1E5EB1BC0046E19F /* Assets.xcassets */,
+				043860BE1E5EB1BC0046E19F /* LaunchScreen.storyboard */,
+				043860C11E5EB1BC0046E19F /* Info.plist */,
+				043860B91E5EB1BC0046E19F /* Secura_Task_Anil.xcdatamodeld */,
+			);
+			path = Secura_Task_Anil;
+			sourceTree = "<group>";
+		};
+		043860C91E5EB1BC0046E19F /* Secura_Task_AnilTests */ = {
+			isa = PBXGroup;
+			children = (
+				043860CA1E5EB1BC0046E19F /* Secura_Task_AnilTests.swift */,
+				043860CC1E5EB1BC0046E19F /* Info.plist */,
+			);
+			path = Secura_Task_AnilTests;
+			sourceTree = "<group>";
+		};
+		043860D41E5EB1BC0046E19F /* Secura_Task_AnilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				043860D51E5EB1BC0046E19F /* Secura_Task_AnilUITests.swift */,
+				043860D71E5EB1BC0046E19F /* Info.plist */,
+			);
+			path = Secura_Task_AnilUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043860AE1E5EB1BC0046E19F /* Secura_Task_Anil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043860DA1E5EB1BC0046E19F /* Build configuration list for PBXNativeTarget "Secura_Task_Anil" */;
+			buildPhases = (
+				043860AB1E5EB1BC0046E19F /* Sources */,
+				043860AC1E5EB1BC0046E19F /* Frameworks */,
+				043860AD1E5EB1BC0046E19F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Secura_Task_Anil;
+			productName = Secura_Task_Anil;
+			productReference = 043860AF1E5EB1BC0046E19F /* Secura_Task_Anil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043860C51E5EB1BC0046E19F /* Secura_Task_AnilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043860DD1E5EB1BC0046E19F /* Build configuration list for PBXNativeTarget "Secura_Task_AnilTests" */;
+			buildPhases = (
+				043860C21E5EB1BC0046E19F /* Sources */,
+				043860C31E5EB1BC0046E19F /* Frameworks */,
+				043860C41E5EB1BC0046E19F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043860C81E5EB1BC0046E19F /* PBXTargetDependency */,
+			);
+			name = Secura_Task_AnilTests;
+			productName = Secura_Task_AnilTests;
+			productReference = 043860C61E5EB1BC0046E19F /* Secura_Task_AnilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043860D01E5EB1BC0046E19F /* Secura_Task_AnilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043860E01E5EB1BC0046E19F /* Build configuration list for PBXNativeTarget "Secura_Task_AnilUITests" */;
+			buildPhases = (
+				043860CD1E5EB1BC0046E19F /* Sources */,
+				043860CE1E5EB1BC0046E19F /* Frameworks */,
+				043860CF1E5EB1BC0046E19F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043860D31E5EB1BC0046E19F /* PBXTargetDependency */,
+			);
+			name = Secura_Task_AnilUITests;
+			productName = Secura_Task_AnilUITests;
+			productReference = 043860D11E5EB1BC0046E19F /* Secura_Task_AnilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043860A71E5EB1BC0046E19F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = anil;
+				TargetAttributes = {
+					043860AE1E5EB1BC0046E19F = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					043860C51E5EB1BC0046E19F = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 043860AE1E5EB1BC0046E19F;
+					};
+					043860D01E5EB1BC0046E19F = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 043860AE1E5EB1BC0046E19F;
+					};
+				};
+			};
+			buildConfigurationList = 043860AA1E5EB1BC0046E19F /* Build configuration list for PBXProject "Secura_Task_Anil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043860A61E5EB1BC0046E19F;
+			productRefGroup = 043860B01E5EB1BC0046E19F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043860AE1E5EB1BC0046E19F /* Secura_Task_Anil */,
+				043860C51E5EB1BC0046E19F /* Secura_Task_AnilTests */,
+				043860D01E5EB1BC0046E19F /* Secura_Task_AnilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043860AD1E5EB1BC0046E19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043860C01E5EB1BC0046E19F /* LaunchScreen.storyboard in Resources */,
+				043860BD1E5EB1BC0046E19F /* Assets.xcassets in Resources */,
+				043860B81E5EB1BC0046E19F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043860C41E5EB1BC0046E19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043860CF1E5EB1BC0046E19F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043860AB1E5EB1BC0046E19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043860BB1E5EB1BC0046E19F /* Secura_Task_Anil.xcdatamodeld in Sources */,
+				043860B51E5EB1BC0046E19F /* ViewController.swift in Sources */,
+				043860B31E5EB1BC0046E19F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043860C21E5EB1BC0046E19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043860CB1E5EB1BC0046E19F /* Secura_Task_AnilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043860CD1E5EB1BC0046E19F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043860D61E5EB1BC0046E19F /* Secura_Task_AnilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043860C81E5EB1BC0046E19F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043860AE1E5EB1BC0046E19F /* Secura_Task_Anil */;
+			targetProxy = 043860C71E5EB1BC0046E19F /* PBXContainerItemProxy */;
+		};
+		043860D31E5EB1BC0046E19F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043860AE1E5EB1BC0046E19F /* Secura_Task_Anil */;
+			targetProxy = 043860D21E5EB1BC0046E19F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		043860B61E5EB1BC0046E19F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043860B71E5EB1BC0046E19F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043860BE1E5EB1BC0046E19F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043860BF1E5EB1BC0046E19F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043860D81E5EB1BC0046E19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		043860D91E5EB1BC0046E19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043860DB1E5EB1BC0046E19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Secura_Task_Anil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anil.com.Secura-Task-Anil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		043860DC1E5EB1BC0046E19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Secura_Task_Anil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anil.com.Secura-Task-Anil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		043860DE1E5EB1BC0046E19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Secura_Task_AnilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anil.com.Secura-Task-AnilTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Secura_Task_Anil.app/Secura_Task_Anil";
+			};
+			name = Debug;
+		};
+		043860DF1E5EB1BC0046E19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Secura_Task_AnilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anil.com.Secura-Task-AnilTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Secura_Task_Anil.app/Secura_Task_Anil";
+			};
+			name = Release;
+		};
+		043860E11E5EB1BC0046E19F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Secura_Task_AnilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anil.com.Secura-Task-AnilUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Secura_Task_Anil;
+			};
+			name = Debug;
+		};
+		043860E21E5EB1BC0046E19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Secura_Task_AnilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anil.com.Secura-Task-AnilUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Secura_Task_Anil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043860AA1E5EB1BC0046E19F /* Build configuration list for PBXProject "Secura_Task_Anil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043860D81E5EB1BC0046E19F /* Debug */,
+				043860D91E5EB1BC0046E19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043860DA1E5EB1BC0046E19F /* Build configuration list for PBXNativeTarget "Secura_Task_Anil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043860DB1E5EB1BC0046E19F /* Debug */,
+				043860DC1E5EB1BC0046E19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		043860DD1E5EB1BC0046E19F /* Build configuration list for PBXNativeTarget "Secura_Task_AnilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043860DE1E5EB1BC0046E19F /* Debug */,
+				043860DF1E5EB1BC0046E19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		043860E01E5EB1BC0046E19F /* Build configuration list for PBXNativeTarget "Secura_Task_AnilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043860E11E5EB1BC0046E19F /* Debug */,
+				043860E21E5EB1BC0046E19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		043860B91E5EB1BC0046E19F /* Secura_Task_Anil.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				043860BA1E5EB1BC0046E19F /* Secura_Task_Anil.xcdatamodel */,
+			);
+			currentVersion = 043860BA1E5EB1BC0046E19F /* Secura_Task_Anil.xcdatamodel */;
+			path = Secura_Task_Anil.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 043860A71E5EB1BC0046E19F /* Project object */;
+}
