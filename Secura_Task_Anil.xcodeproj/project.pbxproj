@@ -15,6 +15,11 @@
 		043860C01E5EB1BC0046E19F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043860BE1E5EB1BC0046E19F /* LaunchScreen.storyboard */; };
 		043860CB1E5EB1BC0046E19F /* Secura_Task_AnilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043860CA1E5EB1BC0046E19F /* Secura_Task_AnilTests.swift */; };
 		043860D61E5EB1BC0046E19F /* Secura_Task_AnilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043860D51E5EB1BC0046E19F /* Secura_Task_AnilUITests.swift */; };
+		043860E41E5EB38F0046E19F /* QRCodeScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043860E31E5EB38F0046E19F /* QRCodeScanViewController.swift */; };
+		043860E71E5EB4110046E19F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043860E61E5EB4110046E19F /* AVFoundation.framework */; };
+		043860EB1E5EB58C0046E19F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043860EA1E5EB58C0046E19F /* TableViewCell.swift */; };
+		043860ED1E5EC3170046E19F /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043860EC1E5EC3170046E19F /* LocalAuthentication.framework */; };
+		043860EF1E5EC6990046E19F /* TouchIDViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043860EE1E5EC6990046E19F /* TouchIDViewC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		043860D11E5EB1BC0046E19F /* Secura_Task_AnilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Secura_Task_AnilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043860D51E5EB1BC0046E19F /* Secura_Task_AnilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secura_Task_AnilUITests.swift; sourceTree = "<group>"; };
 		043860D71E5EB1BC0046E19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043860E31E5EB38F0046E19F /* QRCodeScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeScanViewController.swift; sourceTree = "<group>"; };
+		043860E61E5EB4110046E19F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		043860EA1E5EB58C0046E19F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		043860EC1E5EC3170046E19F /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		043860EE1E5EC6990046E19F /* TouchIDViewC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchIDViewC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043860ED1E5EC3170046E19F /* LocalAuthentication.framework in Frameworks */,
+				043860E71E5EB4110046E19F /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +95,7 @@
 				043860C91E5EB1BC0046E19F /* Secura_Task_AnilTests */,
 				043860D41E5EB1BC0046E19F /* Secura_Task_AnilUITests */,
 				043860B01E5EB1BC0046E19F /* Products */,
+				043860E51E5EB4100046E19F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +114,9 @@
 			children = (
 				043860B21E5EB1BC0046E19F /* AppDelegate.swift */,
 				043860B41E5EB1BC0046E19F /* ViewController.swift */,
+				043860EA1E5EB58C0046E19F /* TableViewCell.swift */,
+				043860E31E5EB38F0046E19F /* QRCodeScanViewController.swift */,
+				043860EE1E5EC6990046E19F /* TouchIDViewC.swift */,
 				043860B61E5EB1BC0046E19F /* Main.storyboard */,
 				043860BC1E5EB1BC0046E19F /* Assets.xcassets */,
 				043860BE1E5EB1BC0046E19F /* LaunchScreen.storyboard */,
@@ -126,6 +142,15 @@
 				043860D71E5EB1BC0046E19F /* Info.plist */,
 			);
 			path = Secura_Task_AnilUITests;
+			sourceTree = "<group>";
+		};
+		043860E51E5EB4100046E19F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				043860EC1E5EC3170046E19F /* LocalAuthentication.framework */,
+				043860E61E5EB4110046E19F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +221,7 @@
 				TargetAttributes = {
 					043860AE1E5EB1BC0046E19F = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = WAS6TN49RL;
 						ProvisioningStyle = Automatic;
 					};
 					043860C51E5EB1BC0046E19F = {
@@ -265,6 +291,9 @@
 				043860BB1E5EB1BC0046E19F /* Secura_Task_Anil.xcdatamodeld in Sources */,
 				043860B51E5EB1BC0046E19F /* ViewController.swift in Sources */,
 				043860B31E5EB1BC0046E19F /* AppDelegate.swift in Sources */,
+				043860EB1E5EB58C0046E19F /* TableViewCell.swift in Sources */,
+				043860E41E5EB38F0046E19F /* QRCodeScanViewController.swift in Sources */,
+				043860EF1E5EC6990046E19F /* TouchIDViewC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +443,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WAS6TN49RL;
 				INFOPLIST_FILE = Secura_Task_Anil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anil.com.Secura-Task-Anil";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +457,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WAS6TN49RL;
 				INFOPLIST_FILE = Secura_Task_Anil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.anil.com.Secura-Task-Anil";
 				PRODUCT_NAME = "$(TARGET_NAME)";
